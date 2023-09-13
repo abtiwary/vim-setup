@@ -187,6 +187,7 @@ set hlsearch
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 
 " set list
+set bg=dark
 
 nmap <F6> :NERDTreeToggle<CR>
 
