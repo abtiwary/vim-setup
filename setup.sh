@@ -8,8 +8,7 @@ then
     home_dir=$1
     echo "home dir is ${home_dir}"
 else
-    echo "please pass in the path to the home directory as the first argument"
-    exit
+    echo "using ${home_dir} (default) as the home directory"
 fi
 
 sudo apt update && sudo apt install -y apt-transport-https ca-certificates git vim neovim curl
