@@ -149,11 +149,13 @@ let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 let g:ale_floating_window_border = ['│', '─', '╭', '╮', '╯', '╰', '│', '─']
 
 
-"let g:gruvbox_contrast_dark = 'hard'
 " colorscheme solarized
 " colorscheme zenburn
 " colorscheme desert
+
 colorscheme gruvbox 
+let g:gruvbox_contrast_dark = 'hard'
+
 " colorscheme kanagawa 
 
 syntax enable
