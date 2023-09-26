@@ -34,3 +34,4 @@ cp init.vim ${home_dir}/.config/nvim
 cp .vimrc ${home_dir}
 
 vim +'PlugInstall --sync' +qa
+
